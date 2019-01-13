@@ -1,0 +1,221 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*#region Header */
+
+header {
+    background-color: #b6ff00;
+    height: 80px;
+    line-height: 80px;
+}
+
+    header .logo {
+    }
+
+    /*Thanh search*/
+    header .search-container {
+        padding-top: 20px;
+    }
+
+        header .search-container input[type=text] {
+            border: solid 1px #808080;
+            border-left: none;
+            box-shadow: none;
+        }
+
+        header .search-container .btn {
+            border-top-left-radius: 3px !important;
+            border-bottom-left-radius: 3px !important;
+        }
+
+        header .search-container .btn-search {
+            background-color: #fff;
+            border: solid 1px #808080;
+            border-right: none;
+            box-shadow: none;
+        }
+
+        header .search-container:hover input[type=text] {
+            box-shadow: #808080 1px 1px 1px 1px;
+        }
+
+        header .search-container:hover .btn-search {
+            box-shadow: #808080 1px 1px 1px 1px;
+        }
+
+    header .contact-container {
+        margin: 0;
+        padding: 0;
+    }
+
+        header .contact-container ul {
+            list-style: none;
+        }
+
+            header .contact-container ul li {
+                float: right;
+                padding-right: 40px;
+            }
+
+                header .contact-container ul li a {
+                    text-decoration: none;
+                    color: #000000;
+                    text-transform: uppercase;
+                    font-size: 1em;
+                }
+
+                header .contact-container ul li button:hover {
+                    box-shadow: #808080 2px 2px;
+                }
+
+                header .contact-container ul li a:hover {
+                    color: #35c2de;
+                }
+
+/*#endregion */
+
+/* Abridged - thanh thu gọn của header*/
+/*#region Adridged */
+
+#abridged {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    line-height: 80px;
+    display: none;
+}
+
+    #abridged .logo2 {
+        text-align: center;
+    }
+
+    #abridged .search-container {
+        padding-top: 20px;
+    }
+
+        #abridged .search-container input[type=text] {
+            border: solid 1px #808080;
+            border-left: none;
+            box-shadow: none;
+        }
+
+        #abridged .search-container .btn {
+            border-top-left-radius: 3px !important;
+            border-bottom-left-radius: 3px !important;
+        }
+
+        #abridged .search-container .btn-search {
+            background-color: #fff;
+            border: solid 1px #808080;
+            border-right: none;
+            box-shadow: none;
+        }
+
+        #abridged .search-container:hover input[type=text] {
+            box-shadow: #808080 1px 1px 1px 1px;
+        }
+
+        #abridged .search-container:hover .btn-search {
+            box-shadow: #808080 1px 1px 1px 1px;
+        }
+
+    #abridged .bar {
+        text-align: right;
+        padding-right: 40px;
+        font-size: 25px;
+    }
+
+@media (max-width:1200px) {
+    header {
+        display: none;
+    }
+
+    #abridged {
+        display: block;
+    }
+
+    #menu{
+        display:none;
+    }
+}
+
+/*#endregion */
+
+#menu{
+    margin:0;
+    padding:0;
+    background-color:#35c2de;
+    height:40px;
+    line-height:40px;
+    border-top:1px solid #808080;
+    border-bottom-style:inset;
+}
+
+
+    /*#region Menu */
+
+    #menu ul {
+        list-style: none;
+    }
+
+
+        #menu ul li {
+            float: left;
+            padding: 0 20px;
+        }
+
+            #menu ul li:hover {
+                background-color: #b6ff00;
+            }
+
+            #menu ul li a {
+                text-decoration: none;
+                color: #000;
+                text-transform: capitalize;
+                text-align: center;
+            }
+
+/*#endregion */
+
+main{
+    height:300px;
+}
+
+/*#region Footer */
+
+footer {
+    margin: 0;
+    padding: 20px 0;
+    ;
+    background-color: #35c2de;
+}
+
+    footer span {
+        font-size: 1em;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    footer .footer-container {
+    }
+
+        footer .footer-container i {
+            font-size: 20px;
+            padding-right: 20px;
+        }
+
+S            text-decoration: none;
+            color: #000;
+        }
+
+            footer .footer-container a:hover {
+                color: #fff;
+            }
+
+
+/*#endregion */
